@@ -1,0 +1,41 @@
+.about {
+    background-color: #0A2850;
+}
+
+.about__title{
+    margin: 0;
+    padding: 100px 0 0 80px;
+    max-width: 251px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #ffffff;
+
+}
+
+.about__circle {
+    margin: 0;
+    height: 426px;
+    width: 426px;
+    background-color: #2f80ed;
+    border-radius: 50%;
+    position: relative;
+    top: -152px;
+    left: -129px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+.about__content{
+
+}
+
+.about__parapgraph{
+
+}
+
+.about__circle{
+
+}
