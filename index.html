@@ -23,7 +23,7 @@
     />
   </head>
   <body>
-    <div class="page">
+    <div class="pages">
       <header class="header">
         <nav class="nav">
           <img
@@ -54,14 +54,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <ul class="header__footer header__footer_hours">
-            <li>Hours&#58;</li>
-            <li>Monday &#8210; Friday (10&#58;00 &#8210; 19&#58;00)</li>
-            <li>Saturday &#8210; Sunday (11&#58;00 &#8210; 18&#58;00)</li>
-          </ul>
-          <p class="header__footer header__footer_address">
-            200 Success Avenue, The Town of Triple Peaks
-          </p>
+          <div>
+            <p class="header__paragraph">Hours&#58;</p>
+            <p class="header__paragraph">Monday &#8210; Friday (10&#58;00 &#8210; 19&#58;00)</p>
+            <p class="header__paragraph">Saturday &#8210; Sunday (11&#58;00 &#8210; 18&#58;00)</p>
+          </div>
+          <div><p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p></div>
         </div>
       </header>
       <main class="content">
@@ -101,7 +99,7 @@
           </div>
         </section>
         <section class="reservation" id="book">
-          <h3 class="reservation__title">Book a table</h3>
+          <h2 class="reservation__title">Book a table</h2>
           <form action="#" class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
@@ -155,7 +153,7 @@
           </form>
         </section>
         <section class="menu" id="menu">
-          <h3 class="menu__title">Menu</h3>
+          <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certifed beans and
             use biodegradable cups. All teas from our collection are $2/cup.
@@ -242,7 +240,7 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <img src="./images/logo_coffeeshop_light.svg" alt="" class="footer__logo">
+          <img src="./images/logo_coffeeshop_light.svg" alt="logo_coffeeshop_light" class="footer__logo">
           <div class="footer__column">
             <h2 class="footer__social-heading">Social media</h2>
           <li class="footer__list">
@@ -250,14 +248,14 @@
               <img src="./images/facebook_white.svg" alt="facebook_logo" class="footer__social-icon">
               <p class="footer__social-link">Facebook</p>
             </div>
-            <div class="footer__list-item">
-              <img src="./images/instagram_white.svg" alt="instagram_logo" class="footer__social-icon">
-              <p class="footer__social-link">Instagram</p>
-            </div>
           </li>
+          <li class="footer__list"><div class="footer__list-item">
+            <img src="./images/instagram_white.svg" alt="instagram_logo" class="footer__social-icon">
+            <p class="footer__social-link">Instagram</p>
+          </div></li>
         </div>
         </div>
-        <div class="footer__copyright">	&#169; 2025 Vedant Patel</div>    
+        <p class="footer__copyright">	&#169; 2025 Vedant Patel</p>    
         </div>
       </footer>
     </div>
