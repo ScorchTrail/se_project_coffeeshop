@@ -23,7 +23,7 @@
     />
   </head>
   <body>
-    <div class="pages">
+    <div class="page">
       <header class="header">
         <nav class="nav">
           <img
@@ -63,11 +63,9 @@
               Saturday &#8210; Sunday (11&#58;00 &#8210; 18&#58;00)
             </p>
           </div>
-          <div>
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -108,7 +106,7 @@
         </section>
         <section class="reservation" id="book">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="#" class="reservation__form form">
+          <form action="#" class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
@@ -145,8 +143,8 @@
                 required
                 placeholder="email@gmail.com"
               />
+              <button class="form__button">Book a table</button>
             </fieldset>
-            <button class="form__button">Book a table</button>
             <fieldset class="form__checkbox">
               <input
                 id="tos"
@@ -255,29 +253,31 @@
           />
           <div class="footer__column">
             <h2 class="footer__social-heading">Social media</h2>
-            <li class="footer__list">
-              <div class="footer__list-item">
-                <img
-                  src="./images/facebook_white.svg"
-                  alt="facebook_logo"
-                  class="footer__social-icon"
-                />
-                <p class="footer__social-link">Facebook</p>
-              </div>
-            </li>
-            <li class="footer__list">
-              <div class="footer__list-item">
-                <img
-                  src="./images/instagram_white.svg"
-                  alt="instagram_logo"
-                  class="footer__social-icon"
-                />
-                <p class="footer__social-link">Instagram</p>
-              </div>
-            </li>
+            <ul class="footer__list">
+              <li>
+                <a href="#" class="footer__list-item">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook logo"
+                    class="footer__social-icon"
+                  />
+                  <p class="footer__social-link">Facebook</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__list-item">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram logo"
+                    class="footer__social-icon"
+                  />
+                  <p class="footer__social-link">Instagram</p>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <p class="footer__copyright">&#169; 2025 Vedant Patel</p>
+        <p class="footer__copyright">&copy; 2025 Vedant Patel</p>
       </footer>
     </div>
   </body>

@@ -55,6 +55,7 @@
   display: flex;
   justify-content: space-between;
   margin: auto 80px 40px 80px;
+  align-items: flex-end;
 }
 
 .header__paragraph {
