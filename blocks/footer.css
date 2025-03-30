@@ -60,10 +60,9 @@
   font-size: 16px;
   line-height: 20px;
   transition: opacity 1s;
-
-  .footer__social-link:hover {
-    opacity: 70%;
-  }
+}
+.footer__social-link:hover {
+  opacity: 70%;
 }
 .footer__copyright {
   margin-top: 108px;
